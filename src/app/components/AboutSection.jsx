@@ -8,10 +8,7 @@ const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
-    // content: (
-    //   <Skill/>
-      
-    // ),
+   
     content : <Skill/>
   },
   {
@@ -34,9 +31,9 @@ const TAB_DATA = [
         <li>
           IBM (Remote Intern June 2021 - Nov 2021) Web Development Intern
         </li>
-
-        <li>Wipro ( Feb 2022 - Nov 2022) Mern Stack Developer</li>
-        <li>Chordify,Inc ( Feb 2023 - Present ) Mern Stack Developer</li>
+        <li>Wipro ( Feb 2022 - Nov 2022) MERN Stack Developer</li>
+        <li>Freelancer ( Aug 2022 - Present) </li>
+        <li>Chordify,Inc ( Feb 2023 - Present ) MERN Stack Developer</li>
       </ul>
     ),
   },
