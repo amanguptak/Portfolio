@@ -26,21 +26,21 @@ const projectsData = [
  
   {
     id: 3,
-    title: "Blog web app using Mern stack",
-    description: "A blog website using Mern stack. In fronted I used react and for state management I used context api withuseReducer hook, in backend I used express js for Api and mongoDb for database.",
-    image: "/images/projects/blogapp.jpeg",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/amanguptak/Blog-website/tree/master",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
     title: "Weather App React  PWA",
     description: "Used axios , React and used PWA features of React ",
     image: "/images/projects/weather.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://weatherappbyaman.web.app/",
+  },
+  {
+    id: 4,
+    title: "Motion an Ai powered note talking app",
+    description: "Motion, fully responsive web application utilizing Next.js 13, an innovative frontend framework rooted in React.js. Developed with TypeScript, the project featured meticulous styling using Tailwind CSS to achieve a refined and contemporary user interface. Integrated MongoDB as the backend database for streamlined and secure data management. Successfully orchestrated the seamless integration of the OpenAI API, enhancing the application with cutting-edge artificial intelligence capabilities. Implemented Pinecone for precise request optimization, resulting in a substantial improvement in overall performance. A standout feature of this project is the integration of an AI chatbot 🤖, seamlessly incorporated to deliver insightful responses derived from users' current notes, thereby significantly enhancing overall user engagement. This project serves as a testament to proficiency in contemporary web development technologies and a steadfast commitment to optimizing the user experience.",
+    image: "https://i.postimg.cc/hjHdG1M3/Screenshot-2023-12-11-120722.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/amanguptak/MotionMan",
+    previewUrl: "https://motion-aman.vercel.app",
   },
   {
     id: 5,
@@ -51,6 +51,7 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://www.icommunify.com",
   },
+
 ];
 
 const ProjectsSection = () => {

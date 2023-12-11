@@ -85,8 +85,8 @@ const list = [
     img: "https://sass-lang.com/assets/img/styleguide/seal-color-reversed.png",
   },
   {
-    name: "Material UI",
-    img: 'https://mui.com/static/logo.png'},
+    name: "TypeScript",
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201'},
   {
     name: "Bootstrap",
     img: "https://w7.pngwing.com/pngs/976/131/png-transparent-bootstrap-framework-logo-dart-mobile-developer-programming-programming-language-interface-3d-icon-thumbnail.png",
