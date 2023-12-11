@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Skill = () => {
   return (
     <div>
@@ -10,8 +10,8 @@ const Skill = () => {
         
             <li
               key={index}
-              style={{ border: "3px solid #ecd449", borderRadius: "20px" ,cursor:"pointer" }}
-              className="p-3 pt-4 flex mx-5 hover:bg-yellow-600 m-2 "
+            
+              className="p-2 pt-4 rounded-full flex px-0 lg:px-3 border-2 cursor-pointer border-amber-400 hover:bg-indigo-200 m-2 "
             >
               <img
                 src={skill.img}
@@ -20,7 +20,10 @@ const Skill = () => {
                 height={30}
                 className="mx-8 rounded-md"
               />
+              <span className="text-slate-500">
               {skill.name}
+              </span>
+             
             </li>
         
         );

@@ -15,8 +15,8 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h3 className="text-white mb-4 text-3xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r " style={{color:"#ecd448"}}>
+          <h3 className="text-indigo-600 mb-4 text-3xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+            <span className="bg-clip-text bg-gradient-to-r text-amber-400">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -26,34 +26,37 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "MERN Stack Developer",
+                "Frontend Developer",
                 1000,
                 "React ,Next js Developer",
+                1000,
+                "FullStack Developer",
                 1000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              className="text-indigo-500"
             />
           </h3>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-slate-600 text-base sm:text-lg mb-6 lg:text-xl">
             Transforming ideas into seamless digital experiences with MERN Stack magic
           </p>
           <div>
             <Link
               href="/#contact"
-              style={{background:"#ecd448"}}
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br  hover:bg-slate-200 text-black"
+         
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br bg-indigo-500 hover:bg-amber-400 hover:text-indigo-500 text-amber-300"
             >
              Contact Me
             </Link>
             <Link
               href="https://aman-guptaresume.tiiny.site/"
               target="_blank"
-              style={{border:"3px solid #ecd448"}}
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  hover:bg-slate-800 text-white mt-3"
+            
+              className="px-1 inline-block py-1 w-full border-2 border-amber-400 sm:w-fit rounded-full bg-gradient-to-br  hover:bg-indigo-500  hover:text-indigo-500 mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-indigo-500 hover:bg-amber-400 rounded-full px-5 py-2">
                 Download CV
               </span>
             </Link>
@@ -65,14 +68,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-amber-400 shadow-lg w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="https://sbinnovations.in/images/web.gif"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
-              style={{borderRadius:"50%"}}
+             
             />
           </div>
         </motion.div>

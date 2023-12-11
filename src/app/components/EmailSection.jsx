@@ -11,22 +11,22 @@ const EmailSection = () => {
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
       
-      <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">
+      <div className="">
+        <h5 className="text-xl font-bold text-indigo-500 my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-slate-500 mb-4 max-w-md">
           {" "}
          Hey there! I&apos;d love to  discuss about web development. Feel free to reach out to me my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 ">
           <Link href="https://github.com/amanguptak" target="_blank">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image src={GithubIcon} className="bg-gray-800 rounded-full" alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/aman-gupta-7577691b5" target="_blank">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image src={LinkedinIcon} alt="Linkedin Icon" className="bg-blue-600 rounded-md"/>
           </Link>
           <Link href="https://gitlab.com/amanguptaofficial932" target="_blank">
             <Image className="mt-1 mx-1" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/gitlab_tile_logo_icon_170092.png" alt="Linkedin Icon" height={40} width={40} />
@@ -35,12 +35,12 @@ const EmailSection = () => {
         </div>
       </div>
       <div className="z-10">
-      <h5 className="text-xl font-bold text-white my-2 text-end">
+      <h5 className="text-xl font-bold text-indigo-500 my-2 text-end">
           Contact Me
         </h5>
       <div className="justify-end items-end flex" >
       
-      <ul className="list-none   ">
+      <ul className="list-none text-slate-500  ">
         <li className="flex">
         
         <p className="my-2">amanofficial9294@gmail.com</p>
