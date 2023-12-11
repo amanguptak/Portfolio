@@ -34,7 +34,7 @@ const EmailSection = () => {
       
         </div>
       </div>
-      <div className="z-10">
+      <div className="">
       <h5 className="text-xl font-bold text-indigo-500 my-2 text-end">
           Contact Me
         </h5>

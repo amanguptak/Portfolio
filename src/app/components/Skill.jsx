@@ -3,7 +3,7 @@ import Image from "next/image";
 const Skill = () => {
   return (
     <div>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6  " >
+      <ul className="grid lg:grid-cols-3 grid-cols-2 " >
       {list.map((skill, index) => {
 
         return (
@@ -11,16 +11,16 @@ const Skill = () => {
             <li
               key={index}
             
-              className="p-2 pt-4 rounded-full flex px-0 lg:px-3 border-2 cursor-pointer border-amber-400 hover:bg-indigo-200 m-2 "
+              className="rounded-full  p-2  m-2 flex items-center justify-around  border-2 cursor-pointer border-amber-400 hover:bg-indigo-200"
             >
               <img
                 src={skill.img}
                 alt=""
-                width={30}
-                height={30}
-                className="mx-8 rounded-md"
+                width={40}
+                height={40}
+                className="h-6 w-6 rounded-sm mx-2 lg:mx-0"
               />
-              <span className="text-slate-500">
+              <span className="text-slate-500 lg:ml-1 text-xs lg:text-lg">
               {skill.name}
               </span>
              
