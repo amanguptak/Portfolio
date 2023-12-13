@@ -1,6 +1,6 @@
 import './globals.css'
 import { Ubuntu } from 'next/font/google';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const ubuntu = Ubuntu({
   subsets: ['latin'],
   display: 'swap',
@@ -16,7 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ubuntu.className}>{children}</body>
+      <body className={ubuntu.className}>{children}
+      <SpeedInsights />
+      </body>
     </html>
   )
 }
