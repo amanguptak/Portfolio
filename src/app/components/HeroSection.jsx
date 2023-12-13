@@ -51,7 +51,7 @@ const HeroSection = () => {
              Contact Me
             </Link>
             <Link
-              href="https://aman-guptaresume.tiiny.site/"
+              href="https://aman-resume.tiiny.site/"
               target="_blank"
             
               className="px-1 inline-block py-1 w-full border-2 border-amber-400 sm:w-fit rounded-full bg-gradient-to-br  hover:bg-indigo-500  hover:text-indigo-500 mt-3"
