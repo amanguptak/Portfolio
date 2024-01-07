@@ -57,6 +57,15 @@ const projectsData = [
       gitUrl: "https://github.com/amanguptak/Motion-school",
       previewUrl: "https://motion-school.vercel.app",
     },
+    {
+        id: 7,
+        title: "Anime Song Music Player",
+        description: "Music player using Vanilla javascript and css with responsive design",
+        image: "/images/projects/music-player.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl: "https://aman-music-playerv1.netlify.app/",
+      },
   
   ];
 const AllProjects = () => {
