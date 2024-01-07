@@ -46,11 +46,11 @@ const EmailSection = () => {
         <p className="my-2">amanofficial9294@gmail.com</p>
         <Image className="mt-1 mx-1 ml-2 p-2" src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="Linkedin Icon" height={40} width={40} />
         </li>
-        <li className="flex items-end justify-end">
+        {/* <li className="flex items-end justify-end">
         
         <p className="my-2">9170615023</p>
         <Image className="mt-1 mx-1 ml-2 p-1 rounded-lg" src="https://img.freepik.com/premium-vector/3d-vector-hand-holding-mobile-phone-isolated-pastel-background-hand-using-smartphone-with-empty-screen-mockup-mobile-concept-showcase-3d-display-minimal-scene-with-device-smartphone_412828-934.jpg" alt="Linkedin Icon" height={50} width={50} />
-        </li>
+        </li> */}
         <li className="flex items-end justify-end">
         
         <p className="my-2"> amangupta041</p>
