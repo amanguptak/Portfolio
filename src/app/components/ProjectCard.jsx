@@ -1,13 +1,22 @@
-import React from "react";
+
+import React, { useState } from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
+import { usePathname } from "next/navigation";
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+
+  const pathName = usePathname()
+
   return (
-    <div>
+    <div className={`${pathName =="/" && "shadow-xl rounded-xl p-5 hover:shadow-indigo-500 h-full"}`}>
       <div
-        className="h-52  w-96  md:h-72 rounded-xl relative group border border-amber-400 "
-        style={{ background: `url(${imgUrl})`, backgroundSize:"cover"}}
+       className="h-52 w-full md:h-72 rounded-xl relative group border border-amber-400"
+       style={{
+         background: `url(${imgUrl})`,
+         backgroundSize: "cover",
+         backgroundPosition: "center", // Center the background image
+       }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
@@ -28,7 +37,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-gray-600 rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-slate-500 line-clamp-9">{description}</p>
+        <p className={`text-slate-500 line-clamp-2 ${pathName.startsWith("/allprojects")&&"line-clamp-none"} `}>{description}</p>
       </div>
     </div>
   );

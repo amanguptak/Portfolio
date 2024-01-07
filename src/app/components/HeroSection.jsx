@@ -56,7 +56,7 @@ const HeroSection = () => {
             
               className="px-1 inline-block py-1 w-full border-2 border-amber-400 sm:w-fit rounded-full bg-gradient-to-br  hover:bg-indigo-500  hover:text-indigo-500 mt-3"
             >
-              <span className="block bg-indigo-500 hover:bg-amber-400 rounded-full px-5 py-2">
+              <span className="block bg-indigo-500 hover:bg-amber-400 rounded-full px-5 py-2 text-white">
                 Download CV
               </span>
             </Link>

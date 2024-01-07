@@ -3,17 +3,19 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-
+import { useRouter } from "next/navigation";
+import { MdOutlineReadMore } from "react-icons/md";
 const projectsData = [
   {
-    id: 1,
-    title: "Anime Clothing store use NextJS and Mern Stack",
-    description: "A ecommerce Web app full responsive using Next Js redux, bootstrap,,mui , expressjs and mongdb(mongoAtlas), for authentication I used jwt and stored the token inside cookies for user and admin validation I created middleware. And frontend is designed in Next js and redux toolkit used reduxthunk for api call,login ,register page with attractive user interface and use Scss..",
-    image: "/images/projects/animeEcom.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://gitlab.com/animeuchiha/Ecom",
-    previewUrl: "https://animeuchicha.vercel.app",
+    "id": 1,
+    "title": "Anime Clothing store use NextJS and Mern Stack",
+    "description": "• Developed a responsive ecommerce app with authentication and authorization features.\n• Implemented functionalities using NextJs, Redux Toolkit for state management, Redux Thunk, Axios, SCSS, and Material UI.\n• Orchestrated the backend with ExpressJS for API development and implemented JWT for secure authentication, storing tokens in cookies.\n• Integrated Razorpay for seamless payment processing and hosted the backend for resilient connectivity.",
+    "image": "/images/projects/animeEcom.png",
+    "tag": ["All", "Web"],
+    "gitUrl": "https://gitlab.com/animeuchiha/Ecom",
+    "previewUrl": "https://animeuchicha.vercel.app"
   },
+  
   {
     id: 2,
     title: "Job Hunting Website",
@@ -54,7 +56,7 @@ const projectsData = [
     id: 6,
     title: "Icommunify College Club managing web app",
     description: "- Developed an advanced Learning Management System (LMS) platform using Next.js 13 with the App Router within the React.js Framework. Implemented TypeScript for a robust and modern frontend architecture.\n- Implemented Prisma for seamless data management and Stripe for secure payment processing.\n- Integrated Mux for advanced video streaming and employed Tailwind for modern, responsive styling.\n- Developed a multifaceted authentication system with Google, GitHub, and email login options using clerk.\n- Demonstrated proficiency in latest technologies, emphasizing commitment to user-friendly solutions in educational technology.",
-    image: "https://i.postimg.cc/bw9ZT5wv/lmsprotfolio.png",
+    image: "/images/projects/lmsprotfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/amanguptak/Motion-school",
     previewUrl: "https://motion-school.vercel.app",
@@ -66,11 +68,13 @@ const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
+  const router = useRouter()
   const handleTagChange = (newTag) => {
     setTag(newTag);
   };
-
+const handleProjects = ()=>{
+  router.push('/allprojects');
+}
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
@@ -106,6 +110,7 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
+      <button onClick={handleProjects} className="p-2 m-3 px-8 text-white bg-indigo-500 rounded-full hover:bg-indigo-700 cursor-pointer flex items-center">Details <MdOutlineReadMore className="h-6 w-6 ml-2" /></button>
     </section>
   );
 };
