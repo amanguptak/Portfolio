@@ -54,7 +54,7 @@ const projectsData = [
     previewUrl: "https://www.icommunify.com",
   }, {
     id: 6,
-    title: "Icommunify College Club managing web app",
+    title: "Motion-School LMS Web Application",
     description: "- Developed an advanced Learning Management System (LMS) platform using Next.js 13 with the App Router within the React.js Framework. Implemented TypeScript for a robust and modern frontend architecture.\n- Implemented Prisma for seamless data management and Stripe for secure payment processing.\n- Integrated Mux for advanced video streaming and employed Tailwind for modern, responsive styling.\n- Developed a multifaceted authentication system with Google, GitHub, and email login options using clerk.\n- Demonstrated proficiency in latest technologies, emphasizing commitment to user-friendly solutions in educational technology.",
     image: "/images/projects/lmsprotfolio.png",
     tag: ["All", "Web"],
