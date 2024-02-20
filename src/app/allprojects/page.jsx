@@ -80,7 +80,7 @@ const projectsData = [
         Repeat: After completing a Pomodoro and taking a short break, start another Pomodoro. After completing four Pomodoros, take a longer break (usually around 15-30 minutes).`,
         image: "/images/projects/pomodoro.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/amanguptak/PomodoroTimer/tree/master",
         previewUrl: "https://pomodose.vercel.app",
       }
   
