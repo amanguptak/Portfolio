@@ -66,6 +66,23 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "https://aman-music-playerv1.netlify.app/",
       },
+      {
+        id: 8,
+        title: "Pomodoro Timer", 
+        description: `A Pomodoro timer has been developed utilizing React.js and vanilla CSS, leveraging the features of the React Context API for state management.  Here's how the Pomodoro Technique typically works:
+      
+        Set a Timer: Choose a task you want to work on and set a timer for 25 minutes (one Pomodoro).
+        
+        Work: Focus solely on the task at hand until the timer rings. Avoid distractions and interruptions during this time.
+        
+        Short Break: When the timer rings, take a short break (usually around 5 minutes) to relax and recharge.
+        
+        Repeat: After completing a Pomodoro and taking a short break, start another Pomodoro. After completing four Pomodoros, take a longer break (usually around 15-30 minutes).`,
+        image: "/images/projects/pomodoro.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl: "https://pomodose.vercel.app",
+      }
   
   ];
 const AllProjects = () => {
