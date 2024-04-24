@@ -13,7 +13,7 @@ const projectsData = [
     "image": "/images/projects/animeEcom.png",
     "tag": ["All", "Web"],
     "gitUrl": "https://gitlab.com/animeuchiha/Ecom",
-    "previewUrl": "https://anime-clothing-frontend.vercel.app/"},
+    "previewUrl": "https://anime-clothing-frontend.vercel.app"},
   
   {
     id: 2,
