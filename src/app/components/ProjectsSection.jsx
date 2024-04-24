@@ -13,7 +13,7 @@ const projectsData = [
     "image": "/images/projects/animeEcom.png",
     "tag": ["All", "Web"],
     "gitUrl": "https://gitlab.com/animeuchiha/Ecom",
-    "previewUrl": "https://anime-clothing-frontend.vercel.app/"
+    "previewUrl": "https://anime-clothing-frontend.vercel.app/"},
   
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     description: "Job website where user can apply for the job and they can accesses more feature a website after registration , frontend of website is based on React and backend is based on Express js and jwt is used for authentication mongoDB is used as database.",
     image: "/images/projects/jobwebsite.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/amanguptak/JobWebsite/tree/master",
     previewUrl: "/",
   },
  
