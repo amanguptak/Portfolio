@@ -20,7 +20,7 @@ const Skill = () => {
                 height={40}
                 className="h-6 w-6 rounded-sm mx-2 lg:mx-0"
               />
-              <span className="text-slate-500 lg:ml-1 text-xs lg:text-lg">
+              <span className="text-amber-400 lg:ml-1 text-xs lg:text-lg">
               {skill.name}
               </span>
              
