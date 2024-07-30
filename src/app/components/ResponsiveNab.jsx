@@ -49,7 +49,7 @@ const ResponsiveNav = () => {
             ) : (
               <button
                 type="button"
-                className=" rounded-md p-2 inline-flex items-center justify-center text-white  focus:outline-none focus:ring-2 focus:ring-inset focus:bg-indigo-500"
+                className=" rounded-md p-2 inline-flex items-center justify-center text-white  focus:outline-none focus:ring-2 focus:ring-inset focus:bg-[#ffcd67]"
                 onClick={handleOpen}
               >
                 <svg
@@ -88,7 +88,7 @@ const ResponsiveNav = () => {
             : "opacity-0 scale-0 absolute top-22 ease-out inset-x-0 p-2 transition transform origin-left  md:hidden"
         }
       >
-        <div className="shadow-lg hover:shadow-indigo-700 ring-1 ring-indigo-500 w-fit ring-opacity-5 p-3 bg-indigo-600 text-white divide-y-2 divide-gray-50  h-screen">
+        <div className="shadow-lg hover:shadow-[#ffcd67] ring-1 ring-[#ffcd67] w-fit ring-opacity-5 p-3 bg-[#21476b] text-white divide-y-2 divide-gray-50  h-screen">
           <div className="pt-5 pb-6 px-5 mx-6">
             <div className="mt-6">
               <nav className="grid gap-y-6 ">

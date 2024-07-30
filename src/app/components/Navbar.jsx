@@ -25,41 +25,18 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed flex items-center justify-between mx-auto  top-0 left-0 right-0 z-10 bg-indigo-600 rounded-b-3xl bg-opacity-100 p-6 shadow-lg  transform hover:shadow-indigo-700 transition-transform duration-300 ease-in-out  cursor-pointer  text-white w-full">
+    <nav className="fixed flex items-center justify-between mx-auto  top-0 left-0 right-0 z-10 bg-[#21476b] rounded-b-3xl bg-opacity-100 p-6 shadow-lg  transform hover:shadow-[#ffcd67] transition-transform duration-300 ease-in-out  cursor-pointer  text-white w-full">
       {/* <div className="flex container flex-wrap items-center justify-between mx-auto "> */}
         <Link
           href={"/"}
           className=" text-amber-300 font-semibold"
          
         >
-           <Image
-              src="/images/logo.png"
-              alt="hero image"
-            className="rounded-full"
-              width={40}
-              height={40}
-              
-            />
+          <span className="font-bold text-xl text-[#ffcd67]">Latika Gupta</span>
             
         </Link>
         <ResponsiveNav/>
-        {/* <div className="mobile-menu block md:hidden">
-          {!navbarOpen ? (
-            <button
-              onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
-            >
-              <Bars3Icon className="h-5 w-5" />
-            </button>
-          ) : (
-            <button
-              onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
-            >
-              <XMarkIcon className="h-5 w-5" />
-            </button>
-          )}
-        </div> */}
+    
         
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-3 mt-2">
@@ -71,8 +48,7 @@ const Navbar = () => {
           </ul>
         </div>
        
-      {/* </div> */}
-      {/* {navbarOpen ? <MenuOverlay links={navLinks} /> : null} */}
+     
     </nav>
   );
 };

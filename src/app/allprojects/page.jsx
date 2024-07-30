@@ -95,11 +95,11 @@ const AllProjects = () => {
   return (
     <div className=''>
          <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-indigo-500 mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold bg-[#21476b]  text-[#ffcd67] p-4">
         Projects
       </h2>
     
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 p-4 pt-6 border cursor-pointer border-amber-400 rounded-2xl shadow-xl hover:shadow-indigo-500 m-3">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 p-4 pt-6 cursor-pointer bg-[#21476b]  ">
         {projectsData.map((project, index) => (
           <motion.li
             key={index}

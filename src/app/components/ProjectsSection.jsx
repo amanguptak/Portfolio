@@ -85,7 +85,7 @@ const handleProjects = ()=>{
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-indigo-500 mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-[#ffcd67] mt-4 mb-8 md:mb-12">
         Projects
       </h2>
     
@@ -109,7 +109,7 @@ const handleProjects = ()=>{
           </motion.li>
         ))}
       </ul>
-      <button onClick={handleProjects} className="p-2 m-3 px-8 text-white bg-indigo-500 rounded-full hover:bg-indigo-700 cursor-pointer flex items-center">Details <MdOutlineReadMore className="h-6 w-6 ml-2" /></button>
+      <button onClick={handleProjects} className="p-2 m-3 px-8 border-1 border-[#ffcd67] text-[#ffcd67] bg-[#21476b] rounded-full shadow-xl hover:shadow-[#ffcd67] cursor-pointer flex items-center">Details <MdOutlineReadMore className="h-6 w-6 ml-2" /></button>
     </section>
   );
 };
